@@ -1,0 +1,225 @@
+* {
+    font-family: 'DynaPuff', sans-serif;
+}
+
+main {
+    background-color: #fffbed;
+}
+
+.btn{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 70px;
+}
+
+.btn:hover {
+    background-color: #ffb5b5;
+    color: #ff2222;
+    transform: translateY(-3px);
+    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+.hero {
+    background: url('asset/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    padding: 100px 20px 120px 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.curve-section {
+    background-color: #d11a30;
+    border-radius: 50% 50% 0 0;
+    padding: 50px 15px;
+    color: white;
+}
+
+.footer h5, .footer p {
+    color: white;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.footer .contact, .footer .team, .footer .creator {
+    text-align: center;
+}
+
+
+.about {
+    background: url('asset/background5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popular {
+    background: url('asset/background4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #444;
+}
+
+p{
+    color: #444;
+}
+
+/* Card Styling */
+.card {
+    position: relative;
+    border: none;
+    background-color: #dc143c;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}  
+
+.card img {
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.rate {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0303;
+    color: white;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 10px 0;
+}
+
+.z-index {
+    z-index: 6;
+}
+
+.card-body h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+}
+
+/* Image Styling */
+img {
+    border-radius: 20px;
+}
+
+.transaksi img {
+    width: 50%;
+}
+
+.favorite img {
+    width: 75%;
+}
+
+.enjoy img {
+    width: 50%;
+}
+
+/* Form Styling */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.slider-social {
+    display: inline-block;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    right: 0px;
+    z-index: 13;
+}
+
+/* Responsivitas untuk Hero Section */
+@media (max-width: 768px) {
+    .hero {
+        background-size: 200%;
+    }
+
+    .hero h1 {
+        font-size: 7vh;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsivitas untuk Card di Popular Section */
+@media (max-width: 576px) {
+    .about {
+        background-position: center;
+    }
+    .card h4 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Responsivitas untuk About Section */
+@media (max-width: 768px) {
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Responsivitas untuk Footer */
+@media (max-width: 768px) {
+    .footer h5 {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+    }
+
+    .footer .row {
+        margin-top: 5px;
+        text-align: center; 
+    }
+
+    .curve-section h2 {
+        font-size: 2rem;
+    }
+}
+
